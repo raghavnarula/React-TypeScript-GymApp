@@ -6,16 +6,16 @@ import Logo from "@/assets/Logo.png"
 
 type Props = {}
 
-const   = (props: Props) => {
+const NavBar = (props: Props) => {
     const flexBetween = 'flex items-center justify-between'
 
     return (
-        <nav>  
-            <div>
-                
+        <nav>
+            <div className={`${flexBetween} fixed top-0 z-30 w-full `}>
+
             </div>
         </nav>
     )
 }
 
-export default  
+export default NavBar  
